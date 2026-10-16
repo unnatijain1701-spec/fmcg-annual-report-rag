@@ -1,0 +1,18 @@
+# Tested together (Python 3.12). Python 3.13/3.14 may break Chainlit/Docling wheels.
+llama-index-core==0.14.25
+llama-index-llms-ollama==0.11.0
+llama-index-embeddings-ollama==0.10.0
+llama-index-vector-stores-qdrant==0.10.3
+llama-index-retrievers-bm25==0.8.0
+qdrant-client==1.19.1
+ollama==0.6.3
+duckdb>=1.1
+pandas>=2.2
+chainlit==2.12.0
+python-dotenv
+pytest
+# heavy (PyTorch): bge-reranker-v2-m3 cross-encoder and Docling PDF parsing
+sentence-transformers>=3.0
+docling>=2.0
+
+plotly

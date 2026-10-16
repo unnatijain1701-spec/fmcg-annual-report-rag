@@ -1,0 +1,25 @@
+id,question,must_contain,truth_source,notes
+Q01,What was ITC's revenue from operations in FY2024-25?,"81,612.78",database,units: Rs crore (Nestle India is stored in Rs million)
+Q02,What was HUL's revenue from operations in FY2024-25?,"61,328.00",database,units: Rs crore (Nestle India is stored in Rs million)
+Q03,What was Dabur's revenue from operations in FY2024-25?,"12,563.10",database,units: Rs crore (Nestle India is stored in Rs million)
+Q04,What was Nestle India's revenue from operations in FY2024-25?,"20,077.50~200,775",database,units: Rs crore (Nestle India is stored in Rs million)
+Q05,What was Tata Consumer's revenue from operations in FY2024-25?,"17,618.30",database,units: Rs crore (Nestle India is stored in Rs million)
+Q06,What was ITC's net profit in FY2024-25?,"20,036.47",database,
+Q07,What was HUL's net profit in FY2024-25?,"10,649.00",database,
+Q08,What was Dabur's net profit in FY2024-25?,"1,740.42",database,
+Q09,What was Nestle India's net profit in FY2024-25?,"3,314.50~33,145",database,
+Q10,What was Tata Consumer's net profit in FY2024-25?,"1,287.10",database,
+Q11,Rank all five companies by net profit margin in FY2024-25.,ITC>HUL>Nestle India>Dabur>Tata Consumer,database,order check
+Q12,Rank all five companies by revenue from operations in FY2024-25.,ITC>HUL>Nestle India>Tata Consumer>Dabur,database,Nestle must not be first (unit bug)
+Q13,Which company had the highest revenue CAGR from FY2022-23 to FY2025-26?,Tata Consumer|13.76,database,
+Q14,What was Dabur's revenue CAGR from FY2022-23 to FY2025-26?,4.59,database,hand-checked formula
+Q15,Which company paid the highest dividend per share in FY2024-25?,HUL|43,database,
+Q16,What was ITC's dividend per share in FY2024-25?,14.35,database,
+Q17,What was HUL's EBITDA margin in FY2024-25?,21.94,database,must not return the FY2022-23 value 22.89
+Q18,Compare the EBITDA margin of ITC and HUL for FY2024-25.,32.36|21.94,database,ITC standalone only; HUL consolidated 21.94 / standalone 21.50
+Q19,What were ITC's and HUL's earnings per share in FY2024-25?,16.07|45.30,database,
+Q20,What were HUL's Scope 1 and Scope 2 emissions in FY2024-25 compared to the previous year?,"8,944|14,622|2,23,923|2,20,234",report table checked,
+Q21,How many board meetings did Nestle India hold in FY2024-25?,nine~9 board meetings,report text checked,"also 8, 5 and 3 attended for three directors"
+Q22,"Which company had the highest EBITDA margin in FY2024-25, and what reasons does its report give for it?",ITC|32.36,database (numbers); reasons manual,reasons need a manual read
+Q23,What does ITC say about illicit trade in cigarettes in its latest annual report?,illicit,manual,"text question, manual read"
+Q24,What are the key risks HUL reports in its latest annual report?,HUL,manual,"text question, manual read; expect quality and safety, plastics, foreign exchange"

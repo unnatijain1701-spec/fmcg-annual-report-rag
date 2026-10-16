@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+.chainlit/
+.files/
+*.pdf
+Annual Reports/
+data/qdrant/
+data/nodes/
+data/financials/
+data/processed/
+data/uploads/
+chat_log.jsonl
