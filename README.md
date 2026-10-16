@@ -2,8 +2,6 @@
 
 A chat assistant for equity analysts. Ask a question about five Indian FMCG companies and get a short, cited answer: a number, a ranking, a chart, or a summary of what management said. It reads **20 annual reports** (ITC, HUL, Dabur, Nestlé India, Tata Consumer Products; FY2022-23 to FY2025-26) so you don't have to.
 
-> Course project: Retrieval Engineering, PGDM-BDA, FORE School of Management.
-> Team: Unnati Jain, Yashita Madan, Kavya Makkar. Faculty: Prof. Ashok Harnal.
 
 ![Home screen](docs/screenshots/01-home.png)
 
